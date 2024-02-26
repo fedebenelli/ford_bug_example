@@ -1,10 +1,7 @@
 ---
-project: yaeos
-summary: Calculation of thermodynamic properties and phase-equilibria with
-         Equation of State. Keeping high performance with the power of Fortran
-         and the possiblity of using either automatic differentiation and
-         anallytical derivatives.
-project_github: https://github.com/fedebenelli/yaeos
+project: example
+summary: example
+project_github: https://github.com/fedebenelli/ford_bug_example
 author: Federico Benelli
 author_description: PhD student with focus on reservoir PVT simulation.
 email: federico.benelli@mi.unc.edu.ar
@@ -27,11 +24,8 @@ creation_date: %Y-%m-%d %H:%M %z
 md_extensions: markdown.extensions.toc
                markdown.extensions.smarty
 graph: false
-license: MPL
+license: MIT
 page_dir: doc/page
-media_dir: doc/media
 ---
 
 [TOC]
-
-{!README.md!}
